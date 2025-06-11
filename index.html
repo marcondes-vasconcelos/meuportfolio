@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marcondes | Link na Bio</title>
+  <title>AG Móveis Planejados</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -20,7 +20,7 @@
       border-radius: 15px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
-    img {
+    img.profile {
       width: 120px;
       border-radius: 50%;
       margin-bottom: 20px;
@@ -30,7 +30,7 @@
     }
     .link {
       display: block;
-      background: #1e90ff;
+      background: #820ad1;
       color: white;
       text-decoration: none;
       padding: 12px 20px;
@@ -39,19 +39,33 @@
       transition: background 0.3s;
     }
     .link:hover {
-      background: #187bcd;
+      background: #6400a8;
+    }
+    .loja {
+      margin-top: 30px;
+    }
+    .loja img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-top: 15px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="https://avatars.githubusercontent.com/u/yourGitHubID" alt="Sua foto">
-    <h1>Marcondes Vasconcelos</h1>
-    <p>Bem-vindo ao meu espaço! Explore meus conteúdos:</p>
+    <img class="profile" src="https://avatars.githubusercontent.com/u/yourGitHubID" alt="Logo ou Foto">
+    <h1>AG Móveis Planejados</h1>
+    <p>Transformando seu ambiente com móveis sob medida e muito estilo.</p>
 
-    <a class="link" href="meuportfolio.pdf" target="_blank">📄 Ver meu portfólio em PDF</a>
-    <a class="link" href="https://www.instagram.com/seu_usuario" target="_blank">📷 Instagram</a>
-    <a class="link" href="https://www.seusite.com" target="_blank">🛍️ Minha Loja (em breve)</a>
+    <a class="link" href="meuportfolio.pdf" target="_blank">📄 Ver portfólio em PDF</a>
+    <a class="link" href="https://www.instagram.com/agmoveisplanejados" target="_blank">📷 Instagram</a>
+
+    <div class="loja">
+      <a class="link" href="#loja">🛋️ Minha Loja (em breve)</a>
+      <div id="loja">
+        <img src="https://i.imgur.com/UgV6CrM.png" alt="Estamos preparando tudo pra vocês">
+      </div>
+    </div>
   </div>
 </body>
 </html>
